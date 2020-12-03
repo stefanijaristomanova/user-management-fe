@@ -1,13 +1,18 @@
 <template>
-$END$
+  <v-footer>
+    <p>User Management Application</p>
+  </v-footer>
 </template>
 
 <script>
 export default {
-name: "Footer"
+  name: 'Footer',
 }
 </script>
-
-<style scoped>
+<style>
+p {
+  width: 100vw;
+  text-align: center;
+}
 
 </style>

@@ -1,31 +1,29 @@
 'use strict';
 import VueRouter from 'vue-router'
-import Home from './components/Home.vue'
-import Users from './views/Users.vue'
-// import Vue from "vue";
+import Home from '../components/Home.vue'
+import Users from '../views/Users.vue'
+import User from '../views/User.vue'
 
-// Vue.use(Router)
-
-// mode: 'history',
-//     base: process.env.BASE_URL,
-// const routes =  new Router({
-
- const routes = [
-        {
-            path: '/',
-            name: 'Home',
-            component: Home
-        },
-        {
-            path: '/users',
-            name: 'Users',
-            component: Users
-        },
-    ]
+const routes = [
+    {
+        path: '/',
+        name: 'Home',
+        component: Home
+    },
+    {
+        path: '/users',
+        name: 'Users',
+        component: Users
+    },
+    {
+        path: '/users/:id',
+        name: 'User',
+        component: User
+    },
+]
 // })
 
-// eslint-disable-next-line no-undef
-const router =  new VueRouter({
+const router = new VueRouter({
     mode: 'history',
     routes: routes
 });
