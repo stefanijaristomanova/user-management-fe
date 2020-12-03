@@ -1,24 +1,27 @@
-# user-management-fe
+<h1>User Management Application</h1>
+<br>
 
-## Project setup
+#### Setting up the environment
 ```
-npm install
+Install NodeJS and NPM <br>
+ -> download nodejs from https://nodejs.org/en/download/
+
+Install vue cli globally 
+   -> npm install -g @vue/cli
+    or
+   -> yarn global add @vue/cli
 ```
 
-### Compiles and hot-reloads for development
+#### Checkout from version control
+```
+ git clone https://github.com/stefanijaristomanova/user-management-fe
+``` 
+
+#### Install dependencies
+```
+ npm install
+```
+### Compile and start application for development
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
